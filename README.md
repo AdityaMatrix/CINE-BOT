@@ -27,6 +27,17 @@ Based on these coordinates, the system can guide the robot to track the tag and 
 ## 📦 Installation
 
 Clone the repository:
-```bash
+--bash
 git clone https://github.com/your-username/april-tag-bot.git
 cd april-tag-bot
+
+## Virtual Environment
+python -m venv venv
+venv\Scripts\activate     # On Windows
+source venv/bin/activate  # On Linux/Mac
+
+## Install Dependencies
+pip install -r requirements.txt
+
+## Run the Live Script
+python apriltag_live.py
